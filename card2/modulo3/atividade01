@@ -1,0 +1,24 @@
+// Função tradicional sem parâmetros
+function saudacao() {
+    console.log("Olá, seja bem-vindo!");
+}
+
+// Função tradicional com parâmetros e retorno de valor
+function somar(a, b) {
+    return a + b;
+}
+
+// Arrow function com parâmetros e retorno de valor
+const multiplicar = (a, b) => a * b;
+
+// Usando as funções em um programa de calculadora simples
+saudacao();
+
+const numero1 = 5;
+const numero2 = 3;
+
+const resultadoSoma = somar(numero1, numero2);
+console.log(`A soma de ${numero1} e ${numero2} é: ${resultadoSoma}`);
+
+const resultadoMultiplicacao = multiplicar(numero1, numero2);
+console.log(`A multiplicação de ${numero1} e ${numero2} é: ${resultadoMultiplicacao}`);
