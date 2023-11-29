@@ -65,7 +65,7 @@ class Observer {
   
   textEditor.addObserver({
     update: (event, data) => {
-      if (event === 'removeLine') {
+        if (event === 'removeLine') {
         console.log(`Linha ${data} removida.`);
       }
     }
